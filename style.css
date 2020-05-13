@@ -1,0 +1,148 @@
+
+html{
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1{
+    padding-bottom: 0;
+    margin-bottom: 0;
+    font-size: 3rem;
+}
+p {
+    font-size: 1.5rem;
+    color: white;
+}
+#Container-1{
+    Background-color: #5bc0de;
+    color: #d9534f;
+    width: 91.75vw;
+    padding-bottom: 8vh;
+    padding-top: 2vh;
+    margin-bottom: 3vh;
+    border-radius: 5px;
+    padding-left: 1.5vw;
+    padding-right: 1.5vw;
+}
+.Contain-All{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    /*max-width: 90vw;*/
+}
+
+    .Form-Container{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        width: 88vw;
+    }
+    
+    form{
+        text-align: left;
+        min-height: 4vh;
+        max-width: 89vw;
+        min-width: 89vw;
+        margin-top: 1vh;
+        color: #5cb85c;
+    }
+    input{
+        min-height: 5vh;
+        max-width: 88vw;
+        min-width: 88vw;
+        border: #D3D3D3 solid .75px;
+        border-radius:5px;
+        background-color: transparent;
+        margin-top: .5vh;
+        padding-left: 1.5vw;
+
+    }
+
+    label{
+        font-size: 1.2rem;
+    }
+
+    h2{
+        align-self: flex-start;
+        margin-left: 3.75vw;
+        color: #5cb85c;
+    }
+
+#CalcRes{
+    border:solid 1px;
+    align-self: stretch;
+    margin: 2vw;
+}
+
+
+@media screen and (min-width: 900px){
+    .Form-Container{
+        display: flex;
+        flex-wrap: nowrap;
+        justify-content: space-between;
+        width: 88vw;
+    }
+    
+    form{
+        text-align: left;
+        min-height: 4vh;
+        max-width: 40vw;
+        min-width: 40vw;
+    }
+    input{
+        min-height: 5vh;
+        max-width: 40vw;
+        min-width: 40vw;
+        border: #D3D3D3 solid .75px;
+        border-radius:5px;
+        background-color: transparent;
+        padding-left: 1.5vw;
+    }
+}
+
+
+.buttonhome{
+    width: 88vw;
+    margin-top: 2.5vh;
+    display: flex;
+    justify-content: space-between;
+}
+
+button{
+    border: #f0ad4e
+    solid 3.5px;
+    border-radius:5px;
+    background-color: transparent;
+    color: #f0ad4e;
+    padding: 1.2vh, 3vh;
+    min-height: 6.25vh;
+    min-width: 7.75vw;
+    font-size: 1.35rem;
+}
+
+
+/* Styles for java added html */
+
+#dope{
+    color: red;
+    font-weight: bold;
+    align-self: baseline;
+    padding-left: 1vw;
+}
+#blue-text{
+    color: #1f829f;
+    align-self: baseline;
+    padding-left: 1vw;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+#red-text{
+    color: red;
+    font-weight: bold;
+    align-self: baseline;
+    padding-left: 1vw;
+    font-size: 1.125rem;
+    margin-top: 1vw;
+}
+
