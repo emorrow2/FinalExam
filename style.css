@@ -72,6 +72,7 @@ p {
     border:solid 1px;
     align-self: stretch;
     margin: 2vw;
+    min-height: 15vh;
 }
 
 
@@ -124,6 +125,18 @@ button{
 /* Styles for java added html */
 
 #dope{
+    color: red;
+    font-weight: bold;
+    align-self: baseline;
+    padding-left: 1vw;
+}
+#dope1{
+        color: red;
+        font-weight: bold;
+        align-self: baseline;
+        padding-left: 1vw;
+    }
+#dope2{
     color: red;
     font-weight: bold;
     align-self: baseline;
